@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -12,14 +12,157 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!--load font awesome-->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<!--Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lato|Lora&display=swap" rel="stylesheet">
 		<!--Custom styles-->
-		<link rel='stylesheet' href="css/styles.css">
+		<link rel='stylesheet' href="styles.css">
 	</head>
 	<body>
-		
+		<!--Container-->
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<!--About me-->
+				<div class="about">
+					<h2>Jordan Rubio, data journalist</h2>
+					<p>My name is Jordan Rubio and I'm a data journalist for the Houston Chronicle.</p>
+					<p>I also handle web development and design at the paper. My previous stops were at the <em>Victoria Advocate</em> and <em>News21</em> as a fellow.</p>
+					<p>I'm originally from Jacksonville, Fla. and graduated from TCU in 2014 with a degree in journalism and a minor in Spanish.</p>
+				</div>
+				<!--End about me-->
+				<!--Buttons to see resume and clips-->
+				<div class="buttons">
+					<div class="col-md-6">
+						<button data-target="clips">See some of my work</button><!--Show clips-->
+					</div>
+					<div class="col-md-6">
+						<button data-target="resume">See my resume</button><!--Show resume-->
+					</div>
+				</div>
+				<!--Social list-->
+				<ul class="social">
+					<li><i class="fa fa-2x fa-twitter"></i><a href="https://twitter.com/jordan_rubio" target="_blank">Twitter</a></li>
+					<li><i class="fa fa-2x fa-github"></i><a href="https://github.com/Jordan-Rubio" target="_blank">Github</a></li>
+					<li><i class="fa fa-2x fa-linkedin"></i><a href="https://www.linkedin.com/in/jordan-rubio-23245a45/" target="_blank">LinkedIn</a></li>
+					<li><i class="fa fa-2x fa-newspaper-o"></i><a href="https://www.houstonchronicle.com/author/jordan-rubio/" target="_blank">Houston Chronicle</a></li>
+					<li><i class="fa fa-2x fa-envelope"></i><a href="mailto:jordan.j.rubio@gmail.com">jordan.j.rubio@gmail.com</a></li>
+				</ul>
+				<!--Resume-->
+				<div class="section" id="resume">
+					<p class="copy">To download a copy of my resume, <a href="assets/resume.pdf" download="Jordan Rubio resume">click here</a>.</p>
+					<div class="portion">
+						<h3>PROFESSIONAL SKILLS:</h3>
+						<p>Data analysis</p>
+						<ul>
+							<li>Microsoft Excel, Basic SQL, Basic R, Tabula, OpenRefine</li>
+						</ul>
+						<p>Data visualization</p>
+						<ul>
+							<li>Flourish, Infogr.am, CartoDB, Tableau</li>
+						</ul>
+						<p>Front-end development/design</p>
+						<ul>
+							<li>HTML5, CSS3, JavaScript/jQuery, Bootstrap, Angular, Command line, GitHub, Amazon Web Services</li>
+						</ul>
+						<p>Other skills</p>
+						<ul>
+							<li>Excellent verbal and written communicator</li>
+							<li>Knowledgeable of AP style and reporting standards</li>
+							<li>Knowledgeable of social media to engage readers and promote stories</li>
+							<li>Experience with shooting and editing video and creating broadcast packages</li>
+							<li>Speaks Spanish</li>
+						</ul>
+					</div>
+					<div class="portion">
+						<h3>AWARDS AND ACHIEVEMENTS:</h3>
+						<ul>
+							<li>2018 Texas APME Winner, Star Online Package of the Year, Overall, <a href="https://www.houstonchronicle.com/local/hc-investigations/harvey/one-year-later/" target="_blank">Harvey One Year Later</a></li>
+							<li>2018 Pulitzer Prize Finalist, <a href="https://www.houstonchronicle.com/local/hc-investigations/harvey/" target="_blank">Hurricane Harvey coverage</a></li>
+							<li>2017 Texas APME Winner, Star Online Package of the Year, Overall, <a href="https://www.houstonchronicle.com/local/hc-investigations/harvey/" target="_blank">Hurricane Harvey</a></li>
+							<li>2017 Pulitzer Prize Finalist, <a href="https://www.houstonchronicle.com/denied/" target="_blank">Denied</a></li>
+							<li>2016 Texas APME Winner, Star Online Package of the Year, Overall, <a href="https://www.houstonchronicle.com/denied/" target="_blank">Denied</a></li>
+							<li>2014 ONA Winner, Student Projects Pro-Am, <a href="http://gunwars.news21.com/" target="_blank">Gun Wars</a></li>
+							<li>2014 EPPY Winner, Best College/University Investigative/Documentary Report, <a href="http://gunwars.news21.com/" target="_blank">Gun Wars</a></li>
+							<li>2014 Texas APME Winner, Star Online Package of the Year, Class AA, <a href="https://www.victoriaadvocate.com/projects/special_reports/woman_of_war/" target="_blank">Woman of War</a></li>
+						</ul>
+					</div>
+					<div class="portion">
+						<h3>RELEVANT  EXPERIENCE:</h3>
+						<p>Houston Chronicle (Houston, Texas)</p>
+						<span class="position"><em>Data journalist/web developer,</em> February 2016 to present</span>
+						<ul>
+							<li>Analyzes and <a href="https://www.houstonchronicle.com/news/houston-texas/houston/article/Income-disparities-persist-in-Texas-despite-13563254.php" target="_blank">parses data</a> for the newsroom</li>
+							<li>Reports and writes <a href="https://www.houstonchronicle.com/news/politics/election/article/What-to-watch-for-in-the-Texas-Senate-race-on-13363718.php" target="_blank">data-driven</a> <a href="https://www.houstonchronicle.com/news/houston-texas/houston/article/Life-expectancy-differs-greatly-in-Harris-County-13485042.php" target="_blank">news stories</a></li>
+							<li>Works with reporters and print designers to create <a href="https://chronpremium.carto.com/builder/be63dcd4-3958-47f2-bde7-dae1271c9afc/embed" target="_blank">interactives</a> and other web extras</li>
+							<li>Creates <a href="https://projects.houstonchronicle.com/top100/#/" target="_blank">web apps</a> and hosts them on <a href="https://www.houstonchronicle.com/interactives/catholic-priest-abuse/" target="_blank">native CMS</a> and <a href="https://projects.houstonchronicle.com/flooding/2018-harvey-bonds/" target="_blank">Projects servers</a></li>
+							<li>Designs web presentations for <a href="https://www.houstonchronicle.com/serialindifference/" target="_blank">projects</a> and <a href="https://www.houstonchronicle.com/local/hc-investigations/harvey/developingstorm/" target="_blank">special reports</a></li>
+						</ul>
+						<p>Victoria Advocate (Victoria, Texas)</p>
+						<span class="position"><em>Digital Editor,</em> August 2014 to February 2016</span>
+						<ul>
+							<li>Managed digital content across a variety of platforms and media, including <a href="https://www.victoriaadvocate.com/projects/" target="_blank">special digital presentations</a></li>
+							<li>Created data visualizations and other web extras for packaging with Advocate stories</li>
+							<li>Contributed my own writing and data analysis for VictoriaAdvocate.com</li>
+							<li>Headed social media efforts to promote newsroom content and develop a local audience</li>
+							<li>Led digital team in creating new apps and improvements for <a href="https://www.victoriaadvocate.com/" target="_blank">VictoriaAdvocate.com</a></li>
+						</ul>
+						<p>News21 (Phoenix, Ariz.)</p>
+						<span class="position"><em>Fellow,</em> May 2014 to August 2016</span>
+						<ul>
+							<li>Wrote and edited data-driven stories produced entirely for a digital audience</li>
+							<li>Shot and edited video for a <a href="https://vimeo.com/102886973" target="_blank">mini-documentary</a> on gun violence</li>
+							<li>Created and managed a database on <a href="http://gunwars.news21.com/data/" target="_blank">firearm-related deaths</a></li>
+							<li>Requested data from state and local government agencies</li>
+							<li>Collaborated with 28 other fellows and 5 editors to produce content in a digital-first spirit</li>
+						</ul>
+					</div>
+					<div class="portion">
+						<h3>EDUCATION:</h3>
+						<div class="education">
+							<p>Texas Christian University, Fort Worth, TX</p>
+							<p>The John V. Roach Honors College</p>
+							<p>Bachelor of Arts - Journalism, May 2014</p>
+						</div>
+					</div>
+				</div><!--End of resume-->
+				<!--Clips section-->
+				<div class="section" id="clips">
+					<div class="portion">
+						<h3>Stories</h3>
+						<ul>
+							<li><a href="https://www.houstonchronicle.com/news/houston-texas/houston/article/As-Fulshear-grows-the-city-becomes-less-diverse-14574988.php" target="_blank">As Fulshear grows, the city becomes less diverse</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/business/article/Houston-region-s-poverty-rate-increases-in-2018-14468509.php" target="_blank">Houston region’s poverty rate increases in 2018 as household income flattens</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/news/houston-texas/houston/article/Life-expectancy-differs-greatly-in-Harris-County-13485042.php" target="_blank">Life expectancy differs greatly in Harris County</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/news/politics/us/article/Rural-Texas-counties-are-new-election-battleground-13442683.php" target="_blank">Rural Texas counties are new election battleground</a>, <em>Houston Chronicle</em></li>
+							<li><a href="http://gunwars.news21.com/2014/at-least-28000-children-and-teens-were-killed-by-guns-over-an-11-year-period/" target="_blank">At least 28,000 children and teens were killed by guns over an 11-year-period</a>, <em>News21</em></li>
+						</ul>
+					</div>
+					<div class="portion">
+						<h3>Web apps and interactives</h3>
+						<ul>
+							<li><a href="https://projects.houstonchronicle.com/homicide-report/" target="_blank">Houston Chronicle Homicide Report</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://projects.houstonchronicle.com/top100/#/" target="_blank">Houston's Top 100 Restaurants</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://projects.houstonchronicle.com/2019/southern-baptist-abuse/#/overview" target="_blank">Abuse of Faith: Search our database of Southern Baptist church leaders and volunteers convicted of sex abuse crimes or who took plea deals</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://projects.houstonchronicle.com/schoolreportcard/#/" target="_blank">School Report Card</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/interactives/catholic-priest-abuse/" target="_blank">How to find Catholic priests 'credibly accused' of abuse in Texas</a>, <em>Houston Chronicle</em></li>
+						</ul>
+					</div>
+					<div class="portion">
+						<h3>Web design</h3>
+						<ul>
+							<li><a href="https://www.houstonchronicle.com/visuals/imeldas-impact/" target="_blank">A Chronicle Visual Essay: Imelda's fury soaked, surprised Southeast Texas</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/lifestyle/dexter-the-dog/" target="_blank">Dexter And the Boy Who Had Never Walked a Dog</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/local/hc-investigations/harvey/developingstorm/" target="_blank">Developing Storm</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/local/hc-investigations/aliveinside/" target="_blank">Alive Inside</a>, <em>Houston Chronicle</em></li>
+							<li><a href="https://www.houstonchronicle.com/serialindifference/" target="_blank">Serial Indifference</a>, <em>Houston Chronicle</em></li>
+						</ul>
+					</div>
+				</div><!--End clips section-->
+			</div>
+		</div><!--End container-->
 		<!--jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>');</script>
+		<script type="text/javascript" src="script.js"></script>
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->

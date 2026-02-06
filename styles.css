@@ -15,6 +15,7 @@ h3 {
 }
 a, a:hover, a:visited {
     color: #222;
+    font-weight: bold;
 }
 p {
     font-family: Georgia,serif;
@@ -24,32 +25,6 @@ p {
 .about {
     margin: 5vh 0 24px;
 }
-/*Buttons styles*/
-.buttons {
-    display: inline-block;
-    width:100%;
-}
-button {
-    background-color: #4D1979;
-    border: none;
-    color: #fff;
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    height: 60px;
-    margin: 5px 0 24px;
-    overflow: visible;
-    padding: 5px;
-    text-align: center;
-    text-align: -webkit-left;
-    text-align-last: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-.active {
-    background-color: #fff;
-    color: #4D1979;
-}
 /*Social list styles*/
 .social {
 	border-top: 2px solid #000;
@@ -57,10 +32,7 @@ button {
 }
 .social li {
 	display: inline-block;
-	padding: 0 12px;
-}
-.social li:not(:first-child) {
-	border-left: 2px solid black;
+	padding: 0;
 }
 .fa {
     margin-right: 6px;
@@ -70,36 +42,14 @@ button {
         display: block;
         margin-bottom: 16px;
     } 
-    .social li:not(:first-child) {
-        border-left: 0;
-    }
 }
 /*General sections styles*/
 .section {
     border-top: 2px solid #000;
-    display: none;
     margin-bottom: 32px;
     margin-top: 24px;
     padding-top: 10px;
 }
-.section a {
-    font-weight: bold;
-}
 .section li {
     font-family: Lato, sans-serif;
-}
-/*Resume section styles*/
-#resume p:not(.copy, .education p) {
-    font-weight: bold;
-    margin-bottom: 4px;
-}
-.copy {
-   font-size: 16px;
-   margin:24px 0;
-}
-/*Education specific style*/
-.education p {
-    font-family: Lato, sans-serif;
-    font-size: 14px;
-    margin-bottom: 1px;
 }

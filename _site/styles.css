@@ -1,0 +1,55 @@
+/*General styles*/
+body {
+	background: #d6d7d8;
+}
+.col-md-6 {
+    padding-left: 0;
+}
+h2 {
+    font-family: Lora,serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+h3 {
+    font-family: Lora,serif;
+}
+a, a:hover, a:visited {
+    color: #222;
+    font-weight: bold;
+}
+p {
+    font-family: Georgia,serif;
+    font-size: 18px;
+}
+/*About me section styles*/
+.about {
+    margin: 5vh 0 24px;
+}
+/*Social list styles*/
+.social {
+	border-top: 2px solid #000;
+	padding: 20px 0 0 0;
+}
+.social li {
+	display: inline-block;
+	padding: 0;
+}
+.fa {
+    margin-right: 6px;
+}
+@media (max-width: 1025px) {
+   .social li {
+        display: block;
+        margin-bottom: 16px;
+    } 
+}
+/*General sections styles*/
+.section {
+    border-top: 2px solid #000;
+    margin-bottom: 32px;
+    margin-top: 24px;
+    padding-top: 10px;
+}
+.section li {
+    font-family: Lato, sans-serif;
+}
